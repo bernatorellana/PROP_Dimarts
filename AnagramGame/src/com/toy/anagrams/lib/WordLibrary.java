@@ -35,6 +35,7 @@ public abstract class WordLibrary {
      * @return some default implementation of WordLibrary
      */
     public static WordLibrary getDefault() {
+        System.out.println("Hola");
         return StaticWordLibrary.DEFAULT;
     }
 
